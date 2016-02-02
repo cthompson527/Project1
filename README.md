@@ -19,11 +19,13 @@ The Java project can be compiled and ran from the command-line while in the Java
 $ javac -classpath commons-math3-3.6.jar:. edu/tamu/csce315/Main.java
 $ java -cp commons-math3-3.6.jar:. edu/tamu/csce315/Main
 ```
+![Java Program](http://imgur.com/TucmOov.png)
 
 #### Program 2 - C++
 The C++ project can be compiled and ran from the command-line while in the C++ directory:
 
 ```
-$ g++ Main.cpp -o main
+$ clang++ Main.cpp Team.cpp Parser.cpp -o main
 $ ./main
 ```
+![C++ Program](http://imgur.com/GCM03vo.png)
